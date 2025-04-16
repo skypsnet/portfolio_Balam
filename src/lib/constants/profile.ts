@@ -1,11 +1,10 @@
 export const PROFILE_INFO = {
   role: 'Software Engineer / Full-stack Developer',
-  logo: 'Louai.b',
-  slogan: 'Coding, Creativity, Coffee...',
-  displayName: "Louai Boumediene",
+  logo: 'MyPortfolio',
+  slogan: 'Eat tacos and learn new things',
+  displayName: "Ricardo Balam Chagoya Morales",
   about: `
-I'm a **software engineer** passionate about crafting high-quality digital experiences. With expertise in **full-stack** development and a strong eye for **UI/UX**, I build **performant, pixel-perfect** applications that are both functional and visually appealing.  
-Always **learning**, always **iterating**, always pushing boundaries.  
+Passionate about learning new trending technologies and their applications in various fields of engineering, science and industry. As a Engineer Geophysics, I have experience in scientist and commmercial software as well as in solving software development problems at a professional level, with agnostic knowledge about frontend and backend development.
 `,
 };
 

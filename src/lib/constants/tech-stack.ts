@@ -16,7 +16,15 @@ import {
   TailwindCSS,
   TypeScript,
   Appwrite,
-  Astro
+  Astro,
+  Apache,
+  Java,
+  MySQL,
+  Firebase,
+  Kubernetes,
+  Spring,
+  AWS,
+  Angular
 } from "developer-icons";
 
 import HonoIcon from '@/components/ui/icons/hono.astro'
@@ -35,12 +43,21 @@ export const TECH_STACK = [
     href: "https://www.python.org/",
     icon: Python,
   },
-
+  {
+    title: "Java",
+    href: "https://www.java.com/es/",
+    icon: Java,
+  },
   // Frontend Technologies
   {
     title: "React",
     href: "https://react.dev/",
     icon: React,
+  },
+  {
+    title: "Angular",
+    href: "https://react.dev/",
+    icon: Angular,
   },
   {
     title: "Next.js",
@@ -62,25 +79,6 @@ export const TECH_STACK = [
     href: "https://redux.js.org/",
     icon: Redux,
   },
-  {
-    title: "Zustand",
-    href: "https://zustand-demo.pmnd.rs/",
-  },
-  {
-    title: "React Query",
-    href: "https://tanstack.com/query/latest",
-    icon: ReactQuery,
-  },
-  {
-    title: "shadcn/ui",
-    href: "https://ui.shadcn.com/",
-    icon: ShadcnUI,
-  },
-  {
-    title: "Motion",
-    href: "https://motion.dev/",
-    icon: Framer,
-  },
 
 
   // Backend Technologies
@@ -88,26 +86,10 @@ export const TECH_STACK = [
     title: "Node.js",
     href: "https://nodejs.org/",
     icon: NodeJs,
-  },
-  {
-    title: "Bun",
-    href: "https://bun.sh/",
-    icon: BunJs,
-  },
-  {
-    title: "FastAPI",
-    href: "https://fastapi.tiangolo.com/",
-    icon: FastapiIcon
-  },
-  {
-    title: "Honojs",
-    href: "https://hono.dev/",
-    icon: HonoIcon
-  },
-  {
-    title: "Appwrite",
-    href: "https://appwrite.io",
-    icon: Appwrite
+  },{
+    title: "Spring",
+    href: "https://nodejs.org/",
+    icon: Spring,
   },
 
   // Databases & Caching
@@ -121,6 +103,11 @@ export const TECH_STACK = [
     href: "https://redis.io/",
     icon: Redis,
   },
+  {
+    title: "MySQL",
+    href: "https://redis.io/",
+    icon: MySQL
+  },
 
   // DevOps & Development Tools
   {
@@ -132,15 +119,27 @@ export const TECH_STACK = [
     title: "Git",
     href: "https://git-scm.com/",
     icon: Git,
-  },
+  },{
+    title: "Kubernetes",
+    href: "https://git-scm.com/",
+    icon: Kubernetes
+  }
 
-
-
-  // Miscellaneous
+  // Cloud providers
+,
   {
-    title: "Figma",
-    href: "https://www.figma.com/",
-    icon: Figma,
-  },
+    title: "AWS",
+    href: "https://git-scm.com/",
+    icon: AWS
+  },{
+    title: "Firebase",
+    href: "https://git-scm.com/",
+    icon: Firebase,
+  },{
+    title: "Apache Kafka",
+    href: "https://git-scm.com/",
+    icon: Apache,
+  }
+
 ];
 

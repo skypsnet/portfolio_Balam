@@ -8,10 +8,6 @@ export const NAV_LINKS = [
     href: "/",
   },
   {
-    label: "Articles",
-    href: "/articles",
-  },
-  {
     label: "Projects",
     href: "/projects",
   },
@@ -21,16 +17,16 @@ export const SOCIAL_LINKS = [
   {
     name: 'Github',
     icon: GithubIcon,
-    url: "https://github.com/Louai-Zokerburg",
+    url: "https://github.com/skypsnet",
   },
   {
     name: 'Linkedin',
     icon: LinkedinIcon,
-    url: "https://www.linkedin.com/in/louai-boumediene-018919262/",
+    url: "https://www.linkedin.com/in/ricardo-balam-chagoya-morales-1a3a5a209/details/experience/",
   },
   {
     name: 'X',
     icon: XIcon,
-    url: "https://x.com/Louai_Dourov",
+    url: "https://x.com/RicBalam",
   },
 ];
